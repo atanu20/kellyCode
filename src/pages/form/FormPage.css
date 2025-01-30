@@ -71,7 +71,7 @@
   }
   
   .AT_form_progress_bar {
-    height: 4px;
+    height: 12px;
     background: #e0e0e0;
     border-radius: 2px;
   }
@@ -123,11 +123,11 @@
   }
   
   .AT_form_next_button {
-    background-color: var(--light-color);
+    background-color: #004DFF;
 
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 12px 25px;
     border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
@@ -137,13 +137,13 @@
   }
   
   .AT_form_next_button:hover {
-    background-color: var(--light-color);
+    background-color: #004DFF;
 
   }
   
   .AT_form_credits {
     width: 100%;
-    background: linear-gradient(180deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    background: linear-gradient(180deg, #1350E3 0%, #29B7E8 100%);
     height: 400px;
     margin-top: -250px;
     z-index: -1;

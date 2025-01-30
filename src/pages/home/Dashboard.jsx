@@ -91,7 +91,7 @@ export default function Dashboard() {
 
             <div className="AT_design_grid">
               {/* Cards */}
-              <div className="AT_design_card">
+              <div className="AT_design_card AT_design_card_sh">
                 <div className="AT_design_card_content">
                   <h3>Quick AI Grader</h3>
                   <p>Quickly grade papers with our default rubric.</p>
@@ -99,7 +99,7 @@ export default function Dashboard() {
                 <span className="AT_design_arrow"> <ArrowForwardIosIcon /> </span>
               </div>
 
-              <div className="AT_design_card">
+              <div className="AT_design_card AT_design_card_sh">
                 <div className="AT_design_card_content">
                   <h3>AI Grader + Your Custom Rubric</h3>
                   <p>Grade papers with your custom rubric.</p>
@@ -107,7 +107,7 @@ export default function Dashboard() {
                 <span className="AT_design_arrow"> <ArrowForwardIosIcon /> </span>
               </div>
 
-              <div className="AT_design_card">
+              <div className="AT_design_card AT_design_card_sh">
                 <div className="AT_design_card_content">
                   <h3>AI Image Grader (Written Assignments)</h3>
                   <p>Grade written assignments, with image upload.</p>
@@ -115,7 +115,10 @@ export default function Dashboard() {
                 <span className="AT_design_arrow"> <ArrowForwardIosIcon /> </span>
               </div>
 
-              <div className="AT_design_card bg_color">
+             
+            </div>
+            <div className="AT_design_grid">
+            <div className="AT_design_card AT_design_card_sh bg_color">
                 <div className="AT_design_card_content ">
                   <h3>Request a Tool</h3>
                   <p>Request an AI grader you're interested in exploring.</p>
@@ -123,12 +126,15 @@ export default function Dashboard() {
                 <span className="AT_design_arrow"> <ArrowForwardIosIcon /></span>
               </div>
 
-              <div className="AT_design_card bg_color">
+              <div className="AT_design_card AT_design_card_sh bg_color">
                 <div className="AT_design_card_content">
                   <h3>Feedback</h3>
                   <p>Provide feedback on an existing tool.</p>
                 </div>
                 <span className="AT_design_arrow"> <ArrowForwardIosIcon /> </span>
+              </div>
+              <div className="AT_design_card ">
+                
               </div>
             </div>
           </section>
