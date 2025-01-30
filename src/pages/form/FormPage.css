@@ -1,0 +1,214 @@
+/* Form specific styles */
+.AT_form_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 999 !important;
+  }
+  
+  .AT_form_header {
+    background: #0a0f2c;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  .AT_form_grader_select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .AT_form_grader_select select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ffffff3d;
+    background: transparent;
+    color: white;
+  }
+  
+  .AT_form_card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 5px solid var(--dark-color);
+  }
+  
+  .AT_form_title {
+    font-size: 50px;
+    color: #0a0f2c;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .AT_form_subtitle {
+    font-size: 35px;
+    color: #0a0f2c;
+    margin: 5px 0 0;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .AT_form_description {
+    text-align: center;
+    color: #666;
+    margin: 15px 0 30px;
+  }
+  
+  .AT_form_progress {
+    margin-bottom: 30px;
+  }
+  
+  .AT_form_step_indicator {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .AT_form_progress_bar {
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+  }
+  
+  .AT_form_progress_fill {
+    height: 100%;
+    background: #0066ff;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+  
+  .AT_form_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .AT_form_field {
+    position: relative;
+  }
+  
+  .AT_form_field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .AT_form_field input,
+  .AT_form_field textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .AT_form_field textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .AT_form_char_count {
+    position: absolute;
+    right: 8px;
+    bottom: -17px !important;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .AT_form_next_button {
+    background-color: var(--light-color);
+
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.2s;
+    outline: none !important;
+  }
+  
+  .AT_form_next_button:hover {
+    background-color: var(--light-color);
+
+  }
+  
+  .AT_form_credits {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    height: 400px;
+    margin-top: -250px;
+    z-index: -1;
+    padding: 15px;
+    color: white;
+    /* position: absolute; */
+  }
+  .AT_form_credits_box{
+    margin-top: -100px;
+    /* background-color: #0a0f2c; */
+    padding: 15px;
+    color: white !important;
+  }
+  
+  
+  .AT_form_results {
+    background: #0a0f2c;
+    color: white;
+    padding: 20px;
+    /* border-radius: 8px; */
+    
+  }
+  
+  .AT_form_results h1 {
+    
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .AT_form_container {
+      padding: 10px;
+    }
+  
+    .AT_form_card {
+      padding: 20px;
+    }
+  
+    .AT_form_title {
+      font-size: 40px;
+    }
+  
+    .AT_form_subtitle {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .AT_form_header {
+      padding: 10px 15px;
+    }
+  
+    .AT_form_grader_select {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .AT_form_card {
+      padding: 15px;
+    }
+  
+    .AT_form_next_button {
+      width: 100%;
+    }
+  }
+  
+  
